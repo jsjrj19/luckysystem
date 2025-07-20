@@ -29,7 +29,8 @@ SOURCES += \
     personlistmanager.cpp \
     rafflemode.cpp \
     singlemode.cpp \
-    mutiplemode.cpp
+    mutiplemode.cpp \
+    nameinterface.cpp
 
 HEADERS += \
         widget.h \
@@ -37,7 +38,9 @@ HEADERS += \
     config.h \
     rafflemode.h \
     singlemode.h \
-    multiplemode.h
+    multiplemode.h \
+    nameinterface.h
 
 FORMS += \
-        widget.ui
+        widget.ui \
+    nameinterface.ui
