@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2025-07-19T15:00:00
+# Project created by QtCreator 2025-07-20T08:55:41
 #
 #-------------------------------------------------
 
@@ -26,18 +26,30 @@ DEFINES += QT_DEPRECATED_WARNINGS
 SOURCES += \
         main.cpp \
         widget.cpp \
-    personlistmanager.cpp \
-    rafflemode.cpp \
-    singlemode.cpp \
-    mutiplemode.cpp
+    mainwindow.cpp \
+    startinterface.cpp \
+    raffleinterface.cpp \
+    participantinterface.cpp \
+    rafflesetting.cpp \
+    namesetting.cpp \
+    ruffleresult.cpp
 
 HEADERS += \
         widget.h \
-    personlistmanager.h \
-    config.h \
-    rafflemode.h \
-    singlemode.h \
-    multiplemode.h
+    mainwindow.h \
+    mainwindow.h \
+    startinterface.h \
+    raffleinterface.h \
+    participantinterface.h \
+    rafflesetting.h \
+    namesetting.h \
+    ruffleresult.h
 
 FORMS += \
-        widget.ui
+        widget.ui \
+    startinterface.ui \
+    raffleinterface.ui \
+    participantinterface.ui \
+    rafflesetting.ui \
+    namesetting.ui \
+    ruffleresult.ui

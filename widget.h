@@ -5,7 +5,6 @@
 
 namespace Ui {
 class Widget;
-
 }
 
 class Widget : public QWidget

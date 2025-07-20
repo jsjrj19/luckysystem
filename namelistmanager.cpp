@@ -1,4 +1,4 @@
-#include "personlistmanager.h"
+#include "namelistmanager.h"
 
 NamelistManager::NamelistManager()
 {

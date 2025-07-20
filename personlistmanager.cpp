@@ -1,6 +1,6 @@
 #include "personlistmanager.h"
 
-PersonListManager::PersonListManager()
+personlistmanager::personlistmanager()
 {
 
 }

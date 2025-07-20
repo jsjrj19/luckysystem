@@ -1,6 +1,6 @@
 #include "rafflemode.h"
 
-RaffleMode::RaffleMode()
+rafflemode::rafflemode()
 {
 
 }

@@ -1,12 +1,11 @@
-#ifndef MUTIPLEMODE_H
-#define MUTIPLEMODE_H
-#include"rafflemode.h"
+#ifndef MULTIPLEMODE_H
+#define MULTIPLEMODE_H
 
-class MultipleMode : public RaffleMode
+
+class multiplemode
 {
 public:
-    MultipleMode();
-    void raffleAlgorithm();
+    multiplemode();
 };
 
 #endif // MULTIPLEMODE_H

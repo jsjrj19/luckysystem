@@ -1,6 +1,6 @@
 #include "singlemode.h"
 
-SingleMode::SingleMode()
+singlemode::singlemode()
 {
 
 }
