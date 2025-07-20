@@ -32,7 +32,7 @@ SOURCES += \
     participantinterface.cpp \
     rafflesetting.cpp \
     namesetting.cpp \
-    ruffleresult.cpp
+    raffleresult.cpp
 
 HEADERS += \
         widget.h \
@@ -43,7 +43,7 @@ HEADERS += \
     participantinterface.h \
     rafflesetting.h \
     namesetting.h \
-    ruffleresult.h
+    raffleresult.h
 
 FORMS += \
         widget.ui \
@@ -52,4 +52,4 @@ FORMS += \
     participantinterface.ui \
     rafflesetting.ui \
     namesetting.ui \
-    ruffleresult.ui
+    raffleresult.ui
