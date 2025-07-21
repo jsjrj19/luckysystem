@@ -5,6 +5,7 @@
 #-------------------------------------------------
 
 QT       += core gui
+QT += axcontainer  # 启用ActiveX支持
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -30,7 +31,17 @@ SOURCES += \
     rafflemode.cpp \
     singlemode.cpp \
     mutiplemode.cpp \
+<<<<<<< HEAD
     nameinterface.cpp
+=======
+    person.cpp \
+    startinterface.cpp \
+    namesetting.cpp \
+    participantinterface.cpp \
+    raffleinterface.cpp \
+    rafflesetting.cpp \
+    raffleresult.cpp
+>>>>>>> 5971b15 (前端和文件读取部分)
 
 HEADERS += \
         widget.h \
@@ -39,8 +50,27 @@ HEADERS += \
     rafflemode.h \
     singlemode.h \
     multiplemode.h \
+<<<<<<< HEAD
     nameinterface.h
 
 FORMS += \
         widget.ui \
     nameinterface.ui
+=======
+    person.h \
+    startinterface.h \
+    namesetting.h \
+    raffleinterface.h \
+    rafflesetting.h \
+    participantinterface.h \
+    raffleresult.h
+
+FORMS += \
+        widget.ui \
+    startinterface.ui \
+    participantinterface.ui \
+    raffleinterface.ui \
+    rafflesetting.ui \
+    namesetting.ui \
+    raffleresult.ui
+>>>>>>> 5971b15 (前端和文件读取部分)
