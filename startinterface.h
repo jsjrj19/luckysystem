@@ -2,6 +2,8 @@
 #define STARTINTERFACE_H
 
 #include <QWidget>
+#include<QLabel>
+#include<QPushButton>
 
 namespace Ui {
 class Startinterface;
@@ -17,6 +19,9 @@ public:
 
 private:
     Ui::Startinterface *ui;
+    QLabel *startLabel;
+    QPushButton *starbtn1;
+    QPushButton *starbtn2;
 };
 
 #endif // STARTINTERFACE_H
